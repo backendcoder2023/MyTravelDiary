@@ -129,9 +129,9 @@ const Stay = () => {
           );
         })}
       </div>
-      {isModalOpen && <BookingModal isOpen={isModalOpen} onClose={closeModal} title={selectedItem} />}
+      {isModalOpen &&  <BookingModal isOpen={isModalOpen} onClose={closeModal} title={selectedItem} />}
     </section>
   );
 };
 
-export default Stay;
+export default Stay
