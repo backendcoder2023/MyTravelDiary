@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import './BudgetCalculator.css'; // Import CSS file for BudgetCalculator styling
 
 const BudgetCalculator = () => {
-  const [budget, setBudget] = useState({
+  const [budget, setBudget] =  useState({
     transport: 0,
     accommodation: 0,
     food: 0,

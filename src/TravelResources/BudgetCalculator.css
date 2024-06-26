@@ -10,7 +10,7 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   width: 100%;
   
-  max-width: 500px;
+  max-width:  500px;
   transition: transform 0.3s ease-in-out; /* Smooth transform transition */
 }
 
