@@ -97,7 +97,7 @@ const Stay = () => {
 
   const openModal = (item) => {
     setSelectedItem(item);
-    setIsModalOpen(true);
+    setIsModalOpen (true);
   };
 
   const closeModal = () => {
