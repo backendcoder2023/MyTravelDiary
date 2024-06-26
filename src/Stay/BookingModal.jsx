@@ -9,7 +9,7 @@ const BookingModal = ({ isOpen, onClose, title }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Booking details:', { name, email, date, roomType });
+    console.log('Booking  details:', { name, email, date, roomType });
     onClose();
   };
 
@@ -59,6 +59,7 @@ const BookingModal = ({ isOpen, onClose, title }) => {
               <option value="double">Double</option>
               <option value="suite">Suite</option>
             </select>
+            
           </div>
           <button type="submit">Book Now</button>
         </form>
