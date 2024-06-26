@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ebe7e7; /* Set a solid background color, for example white (#ffffff) */
+  position: fixed;
+  width: 98%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo .logo-image {
+  height: 60px;
+  border-radius: 35px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.search-icon, .user-icon {
+  font-size: 1.5rem; 
+  color: #333;
+}
+
+.nav-links a .search-icon {
+  margin-right: 10px; 
+}
+
+.nav-links a .user-icon {
+  margin-left: 10px; 
+}

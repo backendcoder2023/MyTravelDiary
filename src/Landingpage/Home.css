@@ -1,0 +1,109 @@
+/* Home.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.main {
+  padding:15px;
+  min-height: 100vh; /* Ensure minimum height of viewport */
+  width: 100%;
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* Carousel Component */
+.carousel .slide {
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+
+.carousel .slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.carousel .legend {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 10px;
+  color: #333;
+  width: 50px;
+}
+
+/* Project Partners Section */
+.project-partners {
+  margin-top: 40px;
+  background-color: #b9d3eb; 
+  padding: 40px 0; 
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-partners h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap:20px; 
+  justify-items: center; 
+}
+
+.partner-card {
+  text-align: center;
+  padding: 20px;
+  background-color: #e7e6e6; 
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease; 
+  width: 90%; 
+}
+
+.partner-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.partner-card img {
+  width: 100px; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 0%; 
+  margin-bottom: 10px; 
+  border: 2px solid #ece8e8; 
+  transition: border-color 0.3s ease; 
+}
+
+.partner-card:hover img {
+  border-color: #e74c3c; /* Red border on hover */
+}
+
+.partner-card p {
+  margin-top: 10px; /* Space above name */
+  font-weight: bold; /* Bold text */
+  color: #6b6666; /* Dark text color */
+  font-size: 16px; /* Font size */
+}
+
+.partner-card .work {
+  font-size: 14px; /* Small text size */
+  color: #181717; /* Gray text color */
+  margin-top: 8px; /* Space above role */
+}
+
+/* Responsive Adjustment for Mobile */
+@media (max-width: 768px) {
+  .partners-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns per row on smaller screens */
+  }
+}
