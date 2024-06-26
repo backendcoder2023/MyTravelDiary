@@ -1,0 +1,101 @@
+/* LoginSignup.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('bac.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+  }
+  
+  .header {
+    margin-bottom: 30px;
+  }
+  
+  .header .text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #34495e;
+  }
+  
+  .header .underline {
+    height: 4px;
+    width: 60px;
+    background: #e74c3c;
+    margin: 10px auto 0;
+  }
+  
+  .inputs {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+  }
+  
+  .input img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .input input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .forgot-password {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+  
+  .forgot-password span {
+    color: #e74c3c;
+    cursor: pointer;
+  }
+  
+  .submit-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit {
+    background: #e74c3c;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 43%;
+    text-align: center;
+    transition: background 0.3s;
+  }
+  .gray{
+    background: white;
+    color: #7f8c8d;
+  }
+  .submit:hover {
+    background: #c0392b;
+  }
+  
