@@ -1,0 +1,135 @@
+/* src/TravelResources/BudgetCalculator.css */
+
+/* Container for the budget calculator */
+.budget-container {
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Slight transparency */
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  
+  max-width:  500px;
+  transition: transform 0.3s ease-in-out; /* Smooth transform transition */
+}
+
+.budget-container:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+}
+
+/* Title style */
+.budget-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Input container style */
+.input-container {
+  margin-bottom: 15px;
+}
+
+/* Label style */
+.budget-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Input field style */
+.budget-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.6); /* Slight transparency */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.budget-input:focus {
+  background: rgba(255, 255, 255, 1); /* Solid background on focus */
+  border-color: #007bff; /* Change border color on focus */
+}
+
+/* Total budget display style */
+.total-budget {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Button style */
+.budget-submit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.budget-submit:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.budget-submit:active {
+  transform: translateY(0); /* Reset lift on click */
+}
+
+/* Animation for fading in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.budget-container, .budget-title, .input-container, .total-budget, .budget-submit {
+  animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .budget-container {
+    padding: 15px;
+  }
+
+  .budget-title {
+    font-size: 1.5rem;
+  }
+
+  .budget-label {
+    font-size: 0.9rem;
+  }
+
+  .budget-input {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .total-budget {
+    font-size: 1.2rem;
+  }
+
+  .budget-submit {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+}
