@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(rgb(121, 221, 232),rgb(134, 113, 223));
+}
+.search {
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+   
+  }
+  
+  /* Styling for the search container */
+  .searchContainer {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the input field */
+  .searchInput input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 20px;
+  }
+  
+  /* Styling for the results dropdown */
+  .dataResult {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .dataItem {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dataItem:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling for the image container */
+  .imageContainer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the city heading */
+  .imageContainer h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Flexbox layout for images to align side by side with gaps */
+  .cityImages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Horizontal and vertical gap between images */
+    justify-content: center;
+  }
+  
+  /* Styling for individual images with consistent size */
+  .cityImage {
+    width: calc(50% - 10px); /* 50% width minus gap to fit two images per row */
+    height: 80px; /* Fixed height for images */
+    object-fit: cover; /* Maintain aspect ratio and cover the box */
+    border-radius: 8px;
+  }
+  
