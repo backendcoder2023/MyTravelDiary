@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faSearch } from '@fortawesome/free-solid-svg-icons';
-import download12 from './download12.jpeg'; // Ensure the path is correct
-import './Navbar.css'; // Ensure the CSS file exists in the same directory
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import download12 from './download12.jpeg';
+import './Navbar.css';
 
 const Navbar = () => {
   return (
@@ -23,21 +24,16 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/destinations">Destinations</Link>
-        </li>
-        <li>
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/stay">Stay</Link>
+          <Link to="./Stay">Stay</Link>
         </li>
         <li>
           <Link to="/cuisines">Cuisines</Link>
         </li>
         <li>
-          <Link to="/register">
-            Register
-          </Link>
+          <Link to="/register">Register</Link>
         </li>
       </ul>
     </nav>

@@ -14,9 +14,9 @@ const Footer = () => {
           </p>
           <div className="socials">
             <a href="https://www.facebook.com/your-facebook-profile" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
-            <a href="https://twitter.com/your-twitter-profile"><FontAwesomeIcon icon={faTwitter} /></a>
-            <a href="https://www.instagram.com/your-instagram-profile  "><FontAwesomeIcon icon={faInstagram} /></a>
-            <a href="https://www.pinterest.com/your-pinterest-profile"><FontAwesomeIcon icon={faPinterest} /></a>
+            <a href="https://twitter.com/your-twitter-profile" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
+            <a href="https://www.instagram.com/your-instagram-profile" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="https://www.pinterest.com/your-pinterest-profile" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPinterest} /></a>
           </div>
         </div>
 
@@ -31,14 +31,12 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-section latest-posts">
-           <h2>Latest Posts</h2>
-       <ul>
-           <li><a href="#">Exploring the Western Ghats: Top Destinations in Maharashtra - June 24, 2024</a></li>
-               <li><a href="#">Hidden Gems of Mumbai: Offbeat Experiences in the City - June 15, 2024</a></li>
-  </ul>
-</div>
-
-       
+          <h2>Latest Posts</h2>
+          <ul>
+            <li><a href="#">Exploring the Western Ghats: Top Destinations in Maharashtra - June 24, 2024</a></li>
+            <li><a href="#">Hidden Gems of Mumbai: Offbeat Experiences in the City - June 15, 2024</a></li>
+          </ul>
+        </div>
       </div>
       <div className="footer-bottom">
         &copy; 2024  | All Rights Reserved

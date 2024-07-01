@@ -1,7 +1,5 @@
-// src/TravelResources/BudgetCalculator.js
-
 import React, { useState } from 'react';
-import './BudgetCalculator.css'; // Import CSS file for BudgetCalculator styling
+import './BudgetCalculator.css'; 
 
 const BudgetCalculator = () => {
   const [budget, setBudget] =  useState({

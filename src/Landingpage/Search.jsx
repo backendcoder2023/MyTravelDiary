@@ -79,7 +79,7 @@ function Search({ placeholder, data }) {
       setFilteredData(data.filter(city => city.toLowerCase().startsWith(value.toLowerCase())));
     } else {
       setFilteredData([]);
-      setSelectedCity(null); // Hide images if the input is cleared
+      setSelectedCity(null); 
     }
   };
 
